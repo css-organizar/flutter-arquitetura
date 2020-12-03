@@ -1,4 +1,5 @@
 import 'package:flutter/foundation.dart';
+import 'package:flutter_arquitetura/app/models/app_config_model.dart';
 
 // Ingleton
 
@@ -13,9 +14,9 @@ class AppController {
 
   AppController._();
 
-  // Gerência de Estados Nativo -> ValueNotifier
-
-  final themeSwitch = ValueNotifier<bool>(false);
+  final AppConfigModel config = AppConfigModel();
+  bool get isDark => config.themeSwitch.value;
+  ValueNotifier<bool> get themeSwitch => config.themeSwitch;
 
   changeTheme(bool value) {
     themeSwitch.value = value;
