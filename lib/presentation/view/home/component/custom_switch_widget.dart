@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_arquitetura/presentation/app/controller/app_controller.dart';
+import 'package:flutter_arquitetura/application/app_controller.dart';
 
 class CustomSwitchWidget extends StatelessWidget {
   @override

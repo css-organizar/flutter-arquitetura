@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_arquitetura/infrastructure/dal/sqlite_floor/entity/climate_entity.dart';
+import 'package:flutter_arquitetura/infrastructure/dal/entity/climate_entity.dart';
 
 class DetalhePrevisaoView extends StatelessWidget {
   final ClimateEntity detalhe;

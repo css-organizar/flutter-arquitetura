@@ -1,6 +1,6 @@
 import 'package:floor/floor.dart';
-import 'package:flutter_arquitetura/infrastructure/dal/sqlite_floor/entity/climate_entity.dart';
-import 'package:flutter_arquitetura/infrastructure/dal/sqlite_floor/interface/sqlite_dao_interface.dart';
+import 'package:flutter_arquitetura/infrastructure/dal/dao/sqlite_floor/interfaces/sqlite_dao_interface.dart';
+import 'package:flutter_arquitetura/infrastructure/dal/entity/climate_entity.dart';
 
 @dao
 abstract class ClimateDao extends ISqliteDao<ClimateEntity> {

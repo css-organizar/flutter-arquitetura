@@ -1,7 +1,8 @@
-import 'package:flutter_arquitetura/application/constants/constants.dart';
 import 'package:flutter_arquitetura/infrastructure/interfaces/clienmt_http_interface.dart';
 import 'package:flutter_arquitetura/infrastructure/repository/apiadvisor/apiadvisoir_repository_interface.dart';
 import 'package:flutter_arquitetura/infrastructure/repository/apiadvisor/apiadvisor_model.dart';
+
+import '../../../application/common/constants/constants.dart';
 
 class ApiAdvisorRepository implements IApiAdvisor {
   final IClientHttp client;

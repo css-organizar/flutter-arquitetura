@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_arquitetura/infrastructure/dal/sqlite_floor/connection/sqlite_floor_connection.dart';
-import 'package:flutter_arquitetura/infrastructure/dal/sqlite_floor/entity/climate_entity.dart';
-import 'package:flutter_arquitetura/infrastructure/modules/app_module.dart';
+import 'package:flutter_arquitetura/application/modules/app_module.dart';
+import 'package:flutter_arquitetura/infrastructure/dal/dao/sqlite_floor/sqlite_floor_connection.dart';
+import 'package:flutter_arquitetura/infrastructure/dal/entity/climate_entity.dart';
 import 'package:flutter_arquitetura/infrastructure/repository/apiadvisor/apiadvisor_model.dart';
 import 'package:flutter_arquitetura/presentation/view/home/component/custom_listtile_widget.dart';
 import 'package:flutter_arquitetura/presentation/view/home/component/custom_switch_widget.dart';

@@ -1,12 +1,12 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_arquitetura/infrastructure/dal/sqlite_floor/connection/sqlite_floor_connection.dart';
-import 'package:flutter_arquitetura/infrastructure/modules/app_module.dart';
+import 'package:flutter_arquitetura/application/modules/app_module.dart';
+import 'package:flutter_arquitetura/infrastructure/dal/dao/sqlite_floor/sqlite_floor_connection.dart';
 import 'package:flutter_arquitetura/infrastructure/repository/apiadvisor/apiadvisor_repository.dart';
 import 'package:flutter_arquitetura/infrastructure/services/client_http_service.dart';
-import 'package:flutter_arquitetura/infrastructure/view_models/apiadvisor_viewmodel.dart';
-import 'package:flutter_arquitetura/presentation/app/controller/app_controller.dart';
+import 'package:flutter_arquitetura/application/app_controller.dart';
 import 'package:flutter_arquitetura/presentation/view/home/controller/home_controller.dart';
+import 'package:flutter_arquitetura/presentation/view_model/apiadvisor_viewmodel.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
 import 'package:moduler_route/moduler_route.dart';

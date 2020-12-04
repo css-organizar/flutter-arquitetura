@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 
 import 'package:flutter_arquitetura/infrastructure/services/shared_local_storage_service.dart';
-import 'package:flutter_arquitetura/infrastructure/view_models/change_theme_viewmodel.dart';
+import 'package:flutter_arquitetura/presentation/view_model/change_theme_viewmodel.dart';
 
 class AppController {
   static final AppController intance = AppController._();

@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_arquitetura/infrastructure/dal/sqlite_floor/connection/sqlite_floor_connection.dart';
-import 'package:flutter_arquitetura/infrastructure/dal/sqlite_floor/entity/climate_entity.dart';
+import 'package:flutter_arquitetura/infrastructure/dal/dao/sqlite_floor/sqlite_floor_connection.dart';
+import 'package:flutter_arquitetura/infrastructure/dal/entity/climate_entity.dart';
 import 'package:flutter_arquitetura/infrastructure/repository/apiadvisor/apiadvisoir_repository_interface.dart';
 import 'package:flutter_arquitetura/infrastructure/repository/apiadvisor/apiadvisor_model.dart';
 import 'package:moduler_route/moduler_route.dart';

@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:floor/floor.dart';
+import 'package:flutter_arquitetura/infrastructure/dal/dao/sqlite_floor/implements/climate_dao.dart';
+import 'package:flutter_arquitetura/infrastructure/dal/entity/climate_entity.dart';
 import 'package:sqflite/sqflite.dart' as sqflite;
-import 'package:flutter_arquitetura/infrastructure/dal/sqlite_floor/dao/climate_dao.dart';
-import 'package:flutter_arquitetura/infrastructure/dal/sqlite_floor/entity/climate_entity.dart';
 
 part 'sqlite_floor_connection.g.dart'; // the generated code will be there
 

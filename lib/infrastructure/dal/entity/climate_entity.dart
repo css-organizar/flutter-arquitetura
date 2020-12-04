@@ -1,8 +1,6 @@
 import 'package:floor/floor.dart';
 
-@Entity(
-  tableName: 'climate',
-)
+@Entity(tableName: 'climate')
 class ClimateEntity {
   @PrimaryKey(autoGenerate: true)
   @ColumnInfo(name: 'climateId', nullable: false)
